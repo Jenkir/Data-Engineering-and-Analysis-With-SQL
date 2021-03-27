@@ -59,6 +59,8 @@ INNER JOIN department
 ON department.dept_no = dept_empl.dept_no
 WHERE department.dept_name = 'Sales';
 
+SELECT *
+FROM department;
 --7. List all employees in the Sales & Dev depts, incl empl #, last name, first name, dept name
 SELECT 
 data_employees.emp_no,
@@ -78,3 +80,11 @@ SELECT last_name, COUNT(*) AS freq_count
 FROM data_employees
 GROUP BY last_name
 ORDER BY freq_count DESC;
+
+SELECT *
+FROM data_employees
+WHERE emp_no = 110039;
+
+SELECT *
+FROM dept_mgr
+WHERE emp_no = '110039';

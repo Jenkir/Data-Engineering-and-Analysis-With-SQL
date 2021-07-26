@@ -1,5 +1,5 @@
 # sql-challenge
-Homework - "Employee Database: A Mystery in Two Parts"
+"Employee Database: A Mystery in Two Parts"
 
 For this assignment, we were required to complete a research project on employees of a corporation, Pewlett Hackard, from the 1980's and 1990s.
 The data was included in six csv files. 
